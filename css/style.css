@@ -1,3 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 #header-img {
     border-radius: 45px;
 }
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    /* opacity: 0.5; */
+}
+
+@media (max-width: 425px){
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.nav-link {
+    margin-left: 30px;
+}
+
+#menu {
+    /* position: absolute;
+    right: 0; */
+    margin-right: 20px;
+}
+
+#main {
+    position: relative;
+    top: 150px;
+    /* margin-top: 150px; */
+}
+
